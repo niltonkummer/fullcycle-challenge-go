@@ -6,6 +6,7 @@ COPY . /app/
 
 RUN go build -o app
 
+## STEP 2 ------------------
 FROM scratch
 
 WORKDIR /app
